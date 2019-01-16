@@ -58,10 +58,18 @@ class ProjectDetails extends Component {
     };
 
     var images = [
-      { src: "../img/projects/" + project.key + "/main.png" },
-      { src: "../img/projects/" + project.key + "/1.png" },
-      { src: "../img/projects/" + project.key + "/2.png" }
+      { src: "../img/projects/" + project.key + "/main.png" }
     ];
+
+    for (var i = 1; i < project.gallery; i++) {
+      images.push({ src: "../img/projects/" + project.key + `/${i}.png` });
+    }
+
+    // var images = [
+    //   { src: "../img/projects/" + project.key + "/main.png" },
+    //   { src: "../img/projects/" + project.key + "/1.png" },
+    //   { src: "../img/projects/" + project.key + "/2.png" }
+    // ];
 
     return(
 
@@ -77,8 +85,8 @@ class ProjectDetails extends Component {
 
           <div className="row no-gutters">
 
-            <div className="col-lg-6 card-body">
-                <img className="img-fluid"  src={"img/projects/" + project.key + "/main.png"} alt=""></img>
+            <div className="col-lg-6 card-body detail-main-img">
+                <img className="img-fluid "  src={"img/projects/" + project.key + "/main.png"} alt=""></img>
             </div>
 
             <div className="col-lg-6">
@@ -92,8 +100,8 @@ class ProjectDetails extends Component {
 
           </div>
 
-          <div className="card-footer">
-            <Gallery display= {project.gallery} images={images}/>
+          <div className="card-footer detail-footer">
+            <Gallery display="1" images={images}/>
           </div>
 
         </div>

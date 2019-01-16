@@ -1,2 +1,2 @@
-npm Start
+npm run Start
 pause

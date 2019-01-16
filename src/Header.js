@@ -10,7 +10,7 @@ class Header extends Component {
           <img className="img-fluid mb-5 d-block mx-auto rounded-circle" src="img/profile.png" alt="" />
           <h1 className="text-uppercase mb-0 text-primary">Rainer Vieira</h1>
           <hr className="star-light" />
-          <h2 className="font-weight-light mb-0 text-primary">Web Developer - Game Developer</h2>
+          <h2 className="font-weight-light mb-0 text-primary">Web Developer / Game Developer</h2>
         </div>
       </header>
 

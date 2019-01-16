@@ -10,17 +10,12 @@ class About extends Component {
           <hr className="star-dark mb-5" />
           <div className="row">
             <div className="col-lg-4 ml-auto">
-              <p className="lead">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
+              <p className="lead">I am a Full Stack Developer with 3+ years of experience on the field working with Javascript (Jquery, React), PHP, MySQL, Sql Server, Html5 and CSS, also having 5+ years working with other languages, including C, C++, C#, Objective-C, Java (Android) and Swift.</p>
             </div>
             <div className="col-lg-4 mr-auto">
-              <p className="lead">Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
+              <p className="lead"> You can contact me anytime by Linkedin, Facebook and Email (links on footer). </p>
+              <p className="lead">In the meantime, check some of the projects I created below.</p>
             </div>
-          </div>
-          <div className="text-center mt-4">
-            <a className="btn btn-xl btn-outline-light" href="#">
-              <i className="fas fa-download mr-2"></i>
-              Download Now!
-            </a>
           </div>
         </div>
       </section>

@@ -3,7 +3,8 @@ import React, {Component} from 'react';
 import ProjectGrid from "./ProjectGrid";
 import ProjectDetails from "./ProjectDetails";
 
-var path = "http://localhost:3000/";
+//var path = "http://localhost:3000/";
+var path = "http://damp-earth-45938.herokuapp.com/";
 
 class ProjectsContainer extends Component {
 
