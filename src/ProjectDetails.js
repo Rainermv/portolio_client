@@ -58,11 +58,11 @@ class ProjectDetails extends Component {
     };
 
     var images = [
-      { src: "../img/projects/" + project.key + "/main.png" }
+      { src: "img/projects/" + project.key + "/main.png" }
     ];
 
     for (var i = 1; i < project.gallery; i++) {
-      images.push({ src: "../img/projects/" + project.key + `/${i}.png` });
+      images.push({ src: "img/projects/" + project.key + `/${i}.png` });
     }
 
     // var images = [
